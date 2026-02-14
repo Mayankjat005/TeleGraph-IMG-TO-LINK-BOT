@@ -49,4 +49,4 @@ class Database:
         count = await self.col.count_documents({})
         return count
 
-db = Database(Config.MONGO_URL, "Cantarellabots-imgtolinkBot") if Config.MONGO_URL else None
+db = Database(Config.MONGO_URL, "WarriorUnitsBots-imgtolinkBot") if Config.MONGO_URL else None
