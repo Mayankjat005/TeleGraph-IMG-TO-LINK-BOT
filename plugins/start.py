@@ -28,7 +28,7 @@ async def check_sub(client, user_id):
 @Client.on_message(filters.command("start"))
 async def start(client: Client, message: Message):
     # Sticker Animation
-    sticker_msg = await message.reply_sticker("CAACAgUAAxkBAAEQcXpphjJqNeJJJFUdGvlKwz7-TZJFVQACMhwAAtNIIFX3hUNroWBUqTgE")
+    sticker_msg = await message.reply_sticker("CAACAgUAAxkBAAEQg-hpkGUgqYwGU0z-asinxuMEAAEBCYoAApsMAAJ56elU5ea8aY5rj1E6BA")
     import asyncio
     await asyncio.sleep(1)
     await sticker_msg.delete()
@@ -61,7 +61,7 @@ async def start(client: Client, message: Message):
              # Fallback: If username (starts with @ or no -100), construct link. If ID, we can't guess.
              if str(Config.FORCE_SUB_CHANNEL).startswith("-100"):
                  
-                 invite_link = "https://t.me/cantarellabots" # Fallback to updates channel if specific fail
+                 invite_link = "https://t.me/WarriorUnitsBots" # Fallback to updates channel if specific fail
              else:
                  invite_link = f"https://t.me/{Config.FORCE_SUB_CHANNEL.replace('@', '')}"
         
@@ -75,17 +75,18 @@ async def start(client: Client, message: Message):
     # Main Start UI
     txt = (
         f"**👋 Hᴇʟʟᴏ {message.from_user.mention},**\n\n"
-        f"**> I ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ Iᴍᴀɢᴇ ᴛᴏ Lɪɴᴋ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ.**\n\n"
+        f"**> I ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ W🇦​​🇷​​🇷​​🇮​​🇴​​🇷​ Iᴍᴀɢᴇ ᴛᴏ Lɪɴᴋ Bᴏᴛ.**\n\n"
         f"**🛠 Fᴇᴀᴛᴜʀᴇꜱ:**\n"
         f"**> ⚡ Fᴀꜱᴛ Uᴘʟᴏᴀᴅꜱ (Cᴀᴛʙᴏx)**\n"
         f"**> 🔗 Pᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋꜱ**\n"
         f"**> 🛡️ Sᴇᴄᴜʀᴇ & Pʀɪᴠᴀᴛᴇ**"
+        Join:- @WarriorUnitsBots @Warrior_Units"
     )
 
     btn = [
         [
-            InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/cantarellabots"),
-            InlineKeyboardButton("👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/akaza7902")
+            InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/WarriorUnitsBots"),
+            InlineKeyboardButton("👨‍💻 O🇼​​🇳​​🇪​​🇷", url="https://t.me/oo7jatji")
         ],
         [
             InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", url=f"https://t.me/{client.me.username}?startgroup=true")
