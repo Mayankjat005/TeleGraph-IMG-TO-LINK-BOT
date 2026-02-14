@@ -57,7 +57,7 @@ async def upload_media(client: Client, message: Message):
                 text=(
                     f"**✅ Sᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ Uᴘʟᴏᴀᴅᴇᴅ!**\n\n"
                     f"**> Lɪɴᴋ:** `{link}`\n"
-                    f"**> Dɪʀᴇᴄᴛ Lɪɴᴋ:** [Cʟɪᴄᴋ Hᴇʀᴇ]({link})"
+                    f"**> Dɪʀᴇᴄᴛ Lɪɴᴋ:** [Cʟɪᴄᴋ Hᴇʀᴇ]({link})\n"
                     f"J🇴​​🇮​​🇳​:- @WarriorUnitsBots @Warrior_Units"
                 ),
                 reply_markup=InlineKeyboardMarkup(
@@ -75,7 +75,7 @@ async def upload_media(client: Client, message: Message):
                         f"**#Nᴇᴡ_Uᴘʟᴏᴀᴅ**\n\n"
                         f"**👤 Uꜱᴇʀ:** {message.from_user.mention} (`{message.from_user.id}`)\n"
                         f"**🔗 Lɪɴᴋ:** `{link}`\n"
-                        f"**🕒 Tɪᴍᴇ:** {message.date}"
+                        f"**🕒 Tɪᴍᴇ:** {message.date}\n"
                         f"J🇴​​🇮​​🇳​:- @WarriorUnitsBots @Warrior_Units"
                     )
                     # Send message to log channel
