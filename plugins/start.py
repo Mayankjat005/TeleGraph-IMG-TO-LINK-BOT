@@ -79,8 +79,8 @@ async def start(client: Client, message: Message):
         f"**🛠 Fᴇᴀᴛᴜʀᴇꜱ:**\n"
         f"**> ⚡ Fᴀꜱᴛ Uᴘʟᴏᴀᴅꜱ (Cᴀᴛʙᴏx)**\n"
         f"**> 🔗 Pᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋꜱ**\n"
-        f"**> 🛡️ Sᴇᴄᴜʀᴇ & Pʀɪᴠᴀᴛᴇ**"
-        Join:- @WarriorUnitsBots @Warrior_Units"
+        f"**> 🛡️ Sᴇᴄᴜʀᴇ & Pʀɪᴠᴀᴛᴇ**\n"
+        f"J🇴​​🇮​​🇳​:- @WarriorUnitsBots @Warrior_Units"
     )
 
     btn = [
